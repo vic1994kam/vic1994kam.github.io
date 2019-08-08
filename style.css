@@ -1,0 +1,269 @@
+*{
+margin: 0;
+padding: 0;	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+body{
+	width: 400px;
+	height: auto;
+	font-family: sans-serif;
+	margin: auto;
+}
+#wrap, #wraps{
+	background: url("img/busess.png");
+	width: auto;
+	height:auto;
+	background-position: center; 
+  background-repeat: repeat; 
+  background-size: cover;
+  background-color: royalblue;
+  background-color: green; 
+  height: auto;
+}
+#heads{
+	width: 100%;
+	height: 54px;
+	background: black;
+	float: left;
+	margin: auto;
+}
+
+#heads img{
+	width: 212px;
+	height: 100%;
+	float: left;
+}
+#hpic{
+	width: 70px;
+	height: 50%;
+	float: left;
+	margin-left: 112px;
+	margin-top: 25px;
+	background: royalblue;
+	color: white;
+}
+#calls{
+	background: url("img/call.png");
+	width: 60px;
+	height:auto;
+	background-position: center; 
+  background-repeat: repeat; 
+  background-size: cover;
+  background-color: royalblue;
+ float: auto;
+  height: 40px;
+}
+#mic{
+	background: url("img/mics.png");
+	width: 60px;
+	height:auto;
+	background-position: center; 
+  background-repeat: repeat; 
+  background-size: cover;
+  background-color: royalblue;
+ float: auto;
+  height: 40px;
+}
+#logo img{
+	width: 212px;
+	height: 212px;
+	float: auto;
+	margin-left: 74px;
+}
+#pic{
+	width: 212px;
+	height: 212px;
+	float: left;
+	margin-left: 74px;
+}
+
+#btn{
+	float: auto;
+	width: 100%;
+}
+.book{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+}
+.available{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+}
+.traffic{
+	width: 240px;
+	height: 64px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+}
+.feed{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+}
+.help{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+}
+.next{
+	width: 100px;
+	height: 44px;
+	color: white;
+	font-size: 16px;
+	margin-left: 264px;
+	background: black;
+	font-weight: 746;
+
+}
+#footer{
+	height: 45px;
+	width: 100%;
+	float: left;
+	font-size: 12px;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+#footer h3{
+	margin: 15px;
+}
+
+#busstop{
+	width: 100%;
+	height: auto;
+	float: left;margin: auto;
+	margin-left: 10px;
+}
+.container2{
+	margin-left: 47px;
+	
+}
+.container3{
+	margin-left: 47px;
+
+}
+.container4{
+	margin-left: 30px;
+}
+.container5{
+	margin-left: 18px;
+}
+.container6{
+	margin-left: 9px;
+}
+.container7{
+	margin-left: 138px;
+}
+.container8{
+	margin-left: 170px;
+}
+.container9{
+	margin-left: 146px;
+}
+.container10{
+	margin-left: 250px;
+}
+#west{
+	color: tomato;
+}
+#central{
+	margin-left: 45px;
+	color: tomato;
+}
+
+#east{
+	margin-left: 35px;
+	color: tomato;
+}
+#destination{
+	float: left;
+	width: 100%;
+}
+hr{
+	display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background: black;
+  height: 4px;
+  width: 100%;
+}
+.feed:hover{background-color:  royalblue; /* Green */
+  color: white;}.help:hover{background-color:  royalblue; /* Green */
+  color: white;}.traffic:hover{background-color:  royalblue; /* Green */
+  color: white;}.book:hover{background-color: royalblue; /* Green */
+  color: white;}.available:hover{background-color: royalblue; /* Green */
+  color: white;}
+  .next:hover{background-color: green; /* Green */
+  color: white;}
+  .next{
+  	float: auto;
+  	margin-left: 155px;
+  	margin-top: 10px;
+  }
+
+.west{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+
+}
+
+.central{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+
+}
+
+.east{
+	width: 240px;
+	height: 54px;
+	color: white;
+	font-size: 16px;
+	margin-left: 74px;
+	background: green;
+	font-weight: 746;
+
+}
+.west:hover{background-color: black; /* Green */
+  color: white;}.central:hover{background-color: black; /* Green */
+  color: white;}.east:hover{background-color: black; /* Green */
+  color: white;}
